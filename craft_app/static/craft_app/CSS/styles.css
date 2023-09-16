@@ -2,12 +2,12 @@
 /* Глобальные стили для всей страницы */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    /*height: 100%;*/
-    min-height: 100vh;
+    margin: 100px;
+    padding: 100px;
+    height: 120%;
+    /*min-height: 100vh*/
     background-image: url('../images/agpz_backgr.jpeg');
-    background-size: cover;
+    background-size: cover; /* это свойство растягивает изображение */
     background-repeat: no-repeat;
     background-position: center center;
 }
