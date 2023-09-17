@@ -2,12 +2,12 @@
 /* Глобальные стили для всей страницы */
 body {
     font-family: Arial, sans-serif;
-    margin: 100px;
-    padding: 100px;
-    height: 120%;
+    margin: 10px;
+    padding: 10px;
+    height: 100%;
     /*min-height: 100vh*/
     background-image: url('../images/agpz_backgr.jpeg');
-    background-size: cover; /* это свойство растягивает изображение */
+    /*background-size: cover; !* это свойство растягивает изображение *!*/
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -40,3 +40,8 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.full-height {
+            height: 90vh; /* 100% от высоты экрана */
+            background-color: #f0f0f0; /* Цвет фона для наглядности */
+        }
