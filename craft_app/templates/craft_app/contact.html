@@ -1,10 +1,33 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" href="{% static 'images/craft_icon.png' %}" type="image/x-icon">
+    <link rel="shortcut icon" href="{% static 'images/craft_icon.png' %}" type="image/x-icon">
+
+    <link rel="stylesheet" type="text/css"  href="{% static 'CSS/styles1.css' %}">
+
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
+<body class="full-height">
+<a href="{% url 'page_one' %}"><button>На главную</button></a>
+<div class="company-info">
+    <h2>Контакты</h2>
+    <p>ИНН 7802806790</p>
+    <p>КПП 781401001</p>
+    <p>Юридический адрес: 197374, Санкт-Петербург, ул. Оптиков д4 корп 2 литера А БЦ Лахта помещение 382.</p>
+    <p>Фактический адрес: 197374, Санкт-Петербург, ул. Оптиков д4 корп 2 литера А БЦ Лахта помещение 382.</p>
+    <p>Телефон:8(812) 565-46-13</p>
+    <p>mail:info@craft-electro.ru</p>
+    <p>сайт:www.craft-electro.ru</p>
+
+   <p>Наша миссия - предоставлять клиентам лучшие решения, сочетая в себе новейшие технологии и проверенные временем методы работы.</p>
+</div>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1995.1883120287885!2d30.247234177685687!3d59.99537097494372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2suk!4v1694982517199!5m2!1sru!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 </body>
 </html>
