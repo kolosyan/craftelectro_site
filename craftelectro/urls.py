@@ -20,6 +20,8 @@ from django.urls import path
 from craft_app import views
 from django.urls import path
 from craft_app.views import page_one, page_two, page_three
+from django.views.generic import TemplateView  # Добавьте импорт TemplateView
+
 
 urlpatterns = [
     path('', page_one, name='page_one'),
