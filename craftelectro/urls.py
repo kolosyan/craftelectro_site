@@ -26,6 +26,6 @@ from django.views.generic import TemplateView  # Добавьте импорт T
 urlpatterns = [
     path('', page_one, name='page_one'),
     path('about/', page_two, name='page_two'),
-    path('contact/', page_three, name='page_three',
+    path('contact/', page_three, name='page_three'),
     path('robots.txt', TemplateView.as_view(template_name='robots.txt', content_type='text/plain'))
-]
+    ]
