@@ -24,7 +24,8 @@ button {
 }
 
 button:hover {
-    background-color: #2980b9;
+    background-color: #18ffff;
+    color: black;
 }
 
 /* Другие стили, например, для заголовков, ссылок и т.д. */
